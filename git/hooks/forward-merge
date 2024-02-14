@@ -94,7 +94,7 @@ def create_issue(username, password, repository, original, title, labels, milest
     title: title,
     labels: labels,
     milestone: milestone.to_i,
-    body: "Forward port of issue ##{original} to #{milestone_name}."
+    body: "Forward port of issueS ##{original} to #{milestone_name}."
   }.to_json
   if dry_run then
     puts "Dry run"
